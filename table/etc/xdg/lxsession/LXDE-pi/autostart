@@ -1,0 +1,7 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -e python3 /home/pi/Desktop/button.py
+@lxterminal -e python3 /home/pi/Desktop/demo_lcd.py
+@lxterminal -e python3 /home/pi/Desktop/volume_control.py
+@sh /home/pi/Desktop/shutdownTimer.sh
