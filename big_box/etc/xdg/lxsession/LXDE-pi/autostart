@@ -1,0 +1,6 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@sudo sh /home/pi/Desktop/start_end/startNumbers.sh
+@sudo sh /home/pi/Desktop/start_end/startVisuals.sh
+@sudo sh /home/pi/Desktop/start_end/shutdownTime.sh
